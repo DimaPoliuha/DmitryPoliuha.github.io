@@ -139,6 +139,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
+		font-size: 1.3em;
 		border-bottom: dotted 1px;
 		color: inherit;
 		text-decoration: none;
@@ -190,14 +191,14 @@ input, select, textarea {
 		}
 
 	h3 {
-		font-size: 1.15em;
+		font-size: 2em;
 		line-height: 1.75em;
 	}
 
 		@media screen and (max-width: 736px) {
 
 			h3 {
-				font-size: 1em;
+				font-size: 1.5em;
 				line-height: 1.65em;
 			}
 
@@ -1764,7 +1765,7 @@ input, select, textarea {
 	}
 
 	header h3 + p {
-		font-size: 1.1em;
+		font-size: 1.2em;
 	}
 
 	header h4 + p,
@@ -2284,7 +2285,8 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 1em 0 0;
+			padding: 0 0.5em 0 0;
+			font-size: 2em;
 		}
 
 			ul.icons li:last-child {
@@ -2403,7 +2405,7 @@ input, select, textarea {
 		letter-spacing: 0.225em;
 		line-height: 3.125em;
 		max-width: 30em;
-		padding: 0 2.75em;
+		padding: 0 1.3em;
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
@@ -2450,6 +2452,9 @@ input, select, textarea {
 		button.small,
 		.button.small {
 			font-size: 0.8em;
+			height: 60px;
+			line-height: 60px;
+			width: 270px;
 		}
 
 		input[type="submit"].large,
@@ -3096,8 +3101,9 @@ input, select, textarea {
 			.wrapper.style3 input[type="button"],
 			.wrapper.style3 button,
 			.wrapper.style3 .button {
-				box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.125);
-				color: #ffffff;
+				box-shadow: inset 0 0 0 3px #ECA400;
+				color: white;
+				background-color: #2F4047;
 			}
 
 				.wrapper.style3 input[type="submit"]:hover,
@@ -3854,6 +3860,7 @@ input, select, textarea {
 
 				#footer .copyright li a {
 					color: inherit;
+					font-size: 1.5em;
 				}
 
 					#footer .copyright li a:hover {
