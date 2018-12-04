@@ -140,6 +140,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		font-size: 1.3em;
+		font-weight: 100;
 		border-bottom: dotted 1px;
 		color: inherit;
 		text-decoration: none;
@@ -2456,6 +2457,18 @@ input, select, textarea {
 			line-height: 60px;
 			width: 270px;
 			box-shadow: inset 0 0 0 3px #ECA400;
+		}
+
+		@media screen and (min-width: 1400px) {
+
+			input[type="submit"].small,
+			input[type="reset"].small,
+			input[type="button"].small,
+			button.small,
+			.button.small {
+				width: 370px;
+			}
+
 		}
 
 		input[type="submit"].large,
